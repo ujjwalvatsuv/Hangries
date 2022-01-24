@@ -1,0 +1,396 @@
+*{
+     margin:0px;
+     padding:0px; /*by default for all elements*/
+}
+
+/* css for header */
+
+.header{
+     width: 100%;
+     height:70px;
+     background-color:#e25822;
+     display: inline-block;
+}
+.header_container{
+     width:80%;
+     height:70px;
+     display: inline-block;
+     margin-left: 10%;
+     font-size: 0px;
+}
+.logo{
+     width: 15%;
+     height: 70px;
+     font-size: 45px;
+     line-height: 70px;
+     text-align: center;
+     font-family: 'dongle';
+     font-weight: 400;
+     display: inline-block;
+     vertical-align: top;
+     color: white;
+     cursor: pointer;
+}
+
+.nav{
+     height: 70px;
+     width:40%;
+     margin-left: 45%;
+     display: inline-block;
+     font-size: 20px;
+}
+.navigation{
+     list-style-type: none;
+     font-size: 0px;
+}
+.nav-link{
+     height: 70px;
+     width: 20%;
+     display: inline-block;
+     text-align: center;
+     font-size: 25px;
+     font-family: 'dongle';
+     font-weight: 400;
+     line-height: 70px;
+     color: white;
+     cursor: pointer;
+}
+
+.nav-link:hover{
+     color:#e25822;
+     background-color: white;
+     border-radius: 3px;
+     opacity:70%;
+
+}
+/* css for banner */
+
+.banner{
+     height: 500px;
+     width: 100%; 
+     background-image: url(./images/banner.jpg);
+     background-repeat: no-repeat;
+     overflow:hidden;
+     background-position-y: -20px;
+     background-position-x: -5px;
+     background-color: rgb(0, 0, 0, .72);
+}
+
+/* .overlay_ban{
+     width: 100%;
+     height: 500px;
+     padding-top: 80px;
+     padding-bottom: 80px;
+     background-color: rgb(0, 0, 0, .6);
+}
+
+.banner_quote{
+     color:#e25822;
+     color: whitesmoke;
+     font-family: 'dongle';
+     font-size: 80px;
+     text-align: center;
+
+} */
+
+/* css for cuisines section */
+
+.cuisines{
+     padding-top: 25px;
+     padding-bottom: 25px;
+     width: 100%;
+     /* background-color: gainsboro; */
+}
+
+.section_title{
+     font-family: 'segoe ui';
+     text-align: center;
+     font-weight: 400;
+     font-size: 27px;
+     cursor: pointer;
+     color: #393838;
+}
+
+.cuisine_container{
+     width: 80%;
+     /* height: 400px; */
+     margin-left: 10%;
+     /* background-color: red; */
+     margin-top: 25px;
+}
+
+.cuisine{
+     width: 49%;
+     height:500px;
+     background-color:whitesmoke;
+     color:  black;
+     display: inline-block;
+     margin-left: .8%;
+     border-radius: 10px;
+     margin-bottom: 10px;
+     overflow: hidden;
+     box-shadow: 0 0 3px gray;
+}
+
+.padd{
+     padding: 15px;
+     
+}
+
+.cuisine_img{
+     height: 350px;
+     width: 100%;
+     /* background-color: blue; */
+}
+
+.cuisine_image{
+     width: 100%;
+     overflow: hidden;
+}
+
+.cuisine_title , .dish_title {
+     font-family: 'dongle';   
+     font-style: italic;
+     font-size: 35px;
+}
+
+.cuisine_desc , .dish_desc{
+     font-family: 'segoe ui';
+     color: #2d2d2d;
+}
+
+/* css for table-booking */
+
+.table_booking{
+     width: 100%;
+     background-image: url(./images/table_booking.jpg);
+     background-size: 100% auto;
+     background-repeat: no-repeat;
+     /* height: 400px; */
+}
+
+.overlay{
+     width: 100%;
+     height: 150px;
+     padding-top: 80px;
+     padding-bottom: 80px;
+     background-color: rgb(0, 0, 0, .72);
+}
+
+.booking{
+     width: 50%;
+     height: 150px;
+     display: inline-block;
+     margin-left: 25%;
+     text-align: center;
+}
+
+.email{
+     width: 100%;
+     height: 50px;
+     border: 1.5px solid white;
+     outline: none;
+     background-color: transparent;
+     text-align: center;
+     border-radius: 10px;
+     font-size: 18px;
+     color: whitesmoke;
+}
+
+.register_btn{
+     background-color: #e25822;
+     color: white;
+     border-radius: 10px;
+     margin-top: 25px;
+     width: 150px;
+     height: 50px;
+     border: none;
+     cursor: pointer;
+}
+
+.register_btn:hover{
+     color: #e25822;
+     background-color: white;
+     opacity:90%;
+}
+
+.booking_btn{
+     background-color: green;
+     color: white;
+     border-radius: 10px;
+     margin-top: 25px;
+     margin-left: 20px;
+     width: 150px;
+     height: 50px;
+     border: none;
+     cursor: pointer;
+}
+
+.booking_btn:hover{
+     color: green;
+     background-color: white;
+     opacity:90%;
+}
+
+/* css for dishes menu */
+
+.dishes{
+     padding-top: 25px;
+     padding-bottom: 15px;
+     width: 100%;
+     /* background-color: gainsboro; */
+}
+
+.dishes_container{
+     width: 80%;
+     /* height: 400px; */
+     margin-left: 10%;
+     /* background-color: red; */
+     margin-top: 25px;
+}
+.dish{
+     /* background-color: yellow; */
+     width: 24%;
+     display: inline-block;
+     min-height: 220px;
+     vertical-align: top;
+     margin-bottom: 12px;
+     margin-left: .65%;
+     box-shadow: 0 0 3px gray;
+     border-radius: 10px;
+     overflow: hidden;
+}
+
+.dish_img{
+     width: 100%;
+     height: 150px;
+     /* background-color: blue; */
+}
+
+.dish_image{
+     width: 100%;
+}
+
+.order_link{
+     display: inline-block;
+     font-family: 'Segoe UI';
+     margin-top: 15px;
+     padding: 10px 15px;
+     background-color: #e25822;
+     color: whitesmoke;
+     border-radius: 10px;
+     cursor: pointer;
+}
+
+.order_link:hover{
+     background-color: green;
+     color: whitesmoke;
+}
+
+/* css for about */
+
+.about{
+     padding-bottom: 25px;
+     padding-top: 25px;
+     width: 100%;
+     /* background-color: #f9f6f6; */
+     background-color: #fbeeeeeb;
+}
+
+.about_container{
+     width: 80%;
+     margin-left: 10%;
+     /* background-color: red; */
+     margin-top: 30px;
+     display: inline-block;
+}
+
+.about_img{
+     height: 400px;
+     width: 49%;
+     /* background-color: yellow; */
+     background-image: url(./images/about.jpg);
+     background-size: cover;
+     display: inline-block;
+     overflow: hidden;
+     border-radius: 10px;
+}
+
+.about_text{
+     width: 49%;
+     height: 400px;
+     margin-left: 1.5%;
+     display: inline-block;
+     /* background-color: green; */
+     font-family: 'Segoe UI';
+     font-size: 18px;
+     line-height: 28px;
+     vertical-align: top;
+     text-align: justify;
+     border-radius: 10px;
+}
+
+/* css for footer */
+
+.footer{
+     padding-top: 25px;
+     padding-bottom: 25px;
+     width: 100%;
+     background-color:#1F1D36;
+     color: white;
+}
+
+.footer_container{
+     width: 80%;
+     margin-left: 10%;
+}
+
+.footer_section{
+     width: 16%;
+     /* background-color: red; */
+     display: inline-block;
+     margin-left: .7%;
+     /* height: 300px; */
+     vertical-align: top;
+}
+
+.footer_list{
+     list-style-type: none;
+     font-family: 'Segoe UI';
+     padding: 25px;
+     cursor: pointer;
+}
+
+.list_head{
+     font-weight: bold;
+     font-size: 28px;
+     font-style: italic;
+     margin-bottom: 5px;
+     font-family: 'dongle';
+}
+
+.list_item{
+     margin-bottom: 5px;
+}
+
+.social{
+     /* width: 200px; */
+     padding: 25px;
+}
+
+.social_img{
+     width: 48px;
+}
+
+.social_head{
+     font-weight: bold;
+     font-size: 28px;
+     font-style: italic;
+     margin-bottom: 5px;
+     font-family: 'dongle';
+}
+
+.map{
+     width:30%;
+     padding-top: 35px;
+}
